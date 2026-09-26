@@ -15,7 +15,6 @@ namespace FoodBankInventoryJustin
             List<Food> foods = new List<Food>();
 
             foods.AddRange(food1, food2, food3, food4, food5);
-
             Console.WriteLine("=== Community Food Bank Inventory System ===\n");
 
             int total  = 0;
@@ -29,7 +28,7 @@ namespace FoodBankInventoryJustin
 
             Console.WriteLine($"Total inventory: {total} items");
 
-            Console.WriteLine("--- Foods in Need of Restocking (<20 items) ---");
+            Console.WriteLine("\n--- Foods in Need of Restocking (<20 items) ---");
 
             foreach (Food food in foods)
             {
