@@ -23,6 +23,7 @@ namespace FoodBankInventoryJustin
                 Console.WriteLine(food.Display());
                 Console.WriteLine();
             }
+
         }
     }
 }
