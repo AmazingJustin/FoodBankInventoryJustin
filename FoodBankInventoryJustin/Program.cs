@@ -23,7 +23,7 @@ namespace FoodBankInventoryJustin
             {
                 Console.WriteLine(food.Display());
                 Console.WriteLine();
-                total += total + food.Quantity;
+                total = total + food.Quantity;
             }
 
             Console.WriteLine($"Total inventory: {total} items");
