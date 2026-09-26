@@ -16,7 +16,7 @@ namespace FoodBankInventoryJustin
 
             foods.AddRange(food1, food2, food3, food4, food5);
 
-            Console.WriteLine("=== COMMUNITY FOOD BANK INVENTORY ===\n");
+            Console.WriteLine("=== Community Food Bank Inventory System ===\n");
 
             int total  = 0;
 
