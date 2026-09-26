@@ -29,6 +29,14 @@ namespace FoodBankInventoryJustin
 
             Console.WriteLine($"Total inventory: {total} items");
 
+            Console.WriteLine("--- Foods in Need of Restocking (<20 items) ---");
+
+            foreach (Food food in foods)
+            {
+                if(food.Quantity < 20)
+                Console.WriteLine(food.Display());
+                Console.WriteLine();
+            }
         }
     }
 }
