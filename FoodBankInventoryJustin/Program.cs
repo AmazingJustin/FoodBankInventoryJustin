@@ -18,11 +18,16 @@ namespace FoodBankInventoryJustin
 
             Console.WriteLine("=== COMMUNITY FOOD BANK INVENTORY ===\n");
 
+            int total  = 0;
+
             foreach (Food food in foods)
             {
                 Console.WriteLine(food.Display());
                 Console.WriteLine();
+                total += total + food.Quantity;
             }
+
+            Console.WriteLine($"Total inventory: {total} items");
 
         }
     }
